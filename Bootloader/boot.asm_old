@@ -1,0 +1,3 @@
+
+	; Now we need to load our GDT. To do so, the CPU needs to know it's address and length. 
+	; $ is the current address of the assembly code execution. Length of our GDT64 register is current location - gdt64 location (so $ - gdt64). -1 is required for convention.
